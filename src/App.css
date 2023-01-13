@@ -41,3 +41,25 @@ div {
   background-color: #eee;
   text-align: left;
 }
+
+.input {
+  text-align: center;
+  margin-top: 15px;
+}
+.input > button {
+  margin-left: 5px;
+}
+
+.del {
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 10px;
+  width: 60px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.del:hover {
+  background-color: tomato;
+  color: white;
+}
